@@ -8,7 +8,6 @@
 </template>
 
 <script setup>
-
 import * as echarts from 'echarts';
 import { onMounted, ref } from 'vue';
 
@@ -60,7 +59,7 @@ const  init = async ()=> {
             {
               percent: 1,
               style: {
-                fill: 'black'
+                fill: '#fff'
               }
             }
           ]
